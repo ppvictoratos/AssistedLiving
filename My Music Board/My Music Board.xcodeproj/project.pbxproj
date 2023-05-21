@@ -19,6 +19,7 @@
 		1AD2B3772A08B62C00F548AC /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD2B3762A08B62C00F548AC /* Song.swift */; };
 		1AD2B3792A08B68A00F548AC /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD2B3782A08B68A00F548AC /* Profile.swift */; };
 		1AD2B37B2A08BA2600F548AC /* SongCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD2B37A2A08BA2600F548AC /* SongCardView.swift */; };
+		1AD2B3BB2A12FF4900F548AC /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD2B3BA2A12FF4900F548AC /* Business.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		1AD2B3762A08B62C00F548AC /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		1AD2B3782A08B68A00F548AC /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		1AD2B37A2A08BA2600F548AC /* SongCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCardView.swift; sourceTree = "<group>"; };
+		1AD2B3B92A12FE4A00F548AC /* My-Music-Board-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "My-Music-Board-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1AD2B3BA2A12FF4900F548AC /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +107,10 @@
 		1AD2B3462A08B5C800F548AC /* My Music Board */ = {
 			isa = PBXGroup;
 			children = (
+				1AD2B3B92A12FE4A00F548AC /* My-Music-Board-Info.plist */,
 				1AD2B3472A08B5C800F548AC /* My_Music_BoardApp.swift */,
 				1AD2B3492A08B5C800F548AC /* ContentView.swift */,
+				1AD2B3BA2A12FF4900F548AC /* Business.swift */,
 				1AD2B37A2A08BA2600F548AC /* SongCardView.swift */,
 				1AD2B3762A08B62C00F548AC /* Song.swift */,
 				1AD2B3782A08B68A00F548AC /* Profile.swift */,
@@ -277,6 +282,7 @@
 				1AD2B3512A08B5C900F548AC /* Persistence.swift in Sources */,
 				1AD2B34A2A08B5C800F548AC /* ContentView.swift in Sources */,
 				1AD2B3482A08B5C800F548AC /* My_Music_BoardApp.swift in Sources */,
+				1AD2B3BB2A12FF4900F548AC /* Business.swift in Sources */,
 				1AD2B3772A08B62C00F548AC /* Song.swift in Sources */,
 				1AD2B37B2A08BA2600F548AC /* SongCardView.swift in Sources */,
 			);
@@ -440,11 +446,13 @@
 				DEVELOPMENT_TEAM = 5R6CF59GRY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My-Music-Board-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,11 +477,13 @@
 				DEVELOPMENT_TEAM = 5R6CF59GRY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My-Music-Board-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
