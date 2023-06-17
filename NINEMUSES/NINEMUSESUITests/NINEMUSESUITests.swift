@@ -1,13 +1,13 @@
 //
-//  _MUSESUITests.swift
-//  9MUSESUITests
+//  NINEMUSESUITests.swift
+//  NINEMUSESUITests
 //
-//  Created by Petie Positivo on 6/9/23.
+//  Created by Petie Positivo on 6/17/23.
 //
 
 import XCTest
 
-final class _MUSESUITests: XCTestCase {
+final class NINEMUSESUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

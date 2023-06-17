@@ -1,13 +1,13 @@
 //
-//  _MUSESUITestsLaunchTests.swift
-//  9MUSESUITests
+//  NINEMUSESUITestsLaunchTests.swift
+//  NINEMUSESUITests
 //
-//  Created by Petie Positivo on 6/9/23.
+//  Created by Petie Positivo on 6/17/23.
 //
 
 import XCTest
 
-final class _MUSESUITestsLaunchTests: XCTestCase {
+final class NINEMUSESUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
