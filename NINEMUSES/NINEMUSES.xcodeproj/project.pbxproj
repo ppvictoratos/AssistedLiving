@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A2971B62A44A4DD00A1FD45 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2971B52A44A4DD00A1FD45 /* User.swift */; };
+		1A2971B82A44A4E400A1FD45 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2971B72A44A4E400A1FD45 /* Song.swift */; };
+		1A2971BA2A44A58600A1FD45 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2971B92A44A58600A1FD45 /* AuthenticationView.swift */; };
+		1A2971BC2A44A59A00A1FD45 /* LikedSongsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2971BB2A44A59A00A1FD45 /* LikedSongsView.swift */; };
+		1A2971BE2A44A63100A1FD45 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2971BD2A44A63100A1FD45 /* ContentViewModel.swift */; };
+		1A2971C02A44A69200A1FD45 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2971BF2A44A69200A1FD45 /* AuthenticationViewModel.swift */; };
+		1A2971C22A44A69D00A1FD45 /* LikedSongsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2971C12A44A69D00A1FD45 /* LikedSongsViewModel.swift */; };
 		1AF6B73F2A3D77E600A6510A /* NINEMUSESApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B73E2A3D77E600A6510A /* NINEMUSESApp.swift */; };
 		1AF6B7432A3D77E700A6510A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF6B7422A3D77E700A6510A /* Assets.xcassets */; };
 		1AF6B7472A3D77E700A6510A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF6B7462A3D77E700A6510A /* Preview Assets.xcassets */; };
@@ -15,15 +22,6 @@
 		1AF6B75D2A3D77E700A6510A /* NINEMUSESUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B75C2A3D77E700A6510A /* NINEMUSESUITestsLaunchTests.swift */; };
 		1AF6B76D2A3D790700A6510A /* NINEMUSES.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B76B2A3D790700A6510A /* NINEMUSES.xcdatamodeld */; };
 		1AF6B7732A43FD9400A6510A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B7722A43FD9400A6510A /* ContentView.swift */; };
-		1AF6B7752A43FDC100A6510A /* LikedSongState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B7742A43FDC100A6510A /* LikedSongState.swift */; };
-		1AF6B7772A43FDED00A6510A /* AuthenticationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B7762A43FDED00A6510A /* AuthenticationState.swift */; };
-		1AF6B7792A43FDFD00A6510A /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B7782A43FDFD00A6510A /* AppState.swift */; };
-		1AF6B77C2A43FE5900A6510A /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 1AF6B77B2A43FE5900A6510A /* ComposableArchitecture */; };
-		1AF6B77E2A43FF3100A6510A /* Song.Swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B77D2A43FF3100A6510A /* Song.Swift */; };
-		1AF6B7802A43FF3E00A6510A /* SpotifyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B77F2A43FF3E00A6510A /* SpotifyService.swift */; };
-		1AF6B7862A4402D200A6510A /* AuthenticationEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B7852A4402D200A6510A /* AuthenticationEnvironment.swift */; };
-		1AF6B7882A4402EA00A6510A /* LikedSongsEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B7872A4402EA00A6510A /* LikedSongsEnvironment.swift */; };
-		1AF6B78A2A4404BF00A6510A /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B7892A4404BF00A6510A /* AuthenticationService.swift */; };
 		1AF6B78C2A44107900A6510A /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF6B78B2A44107900A6510A /* SpotifyiOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A2971B52A44A4DD00A1FD45 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1A2971B72A44A4E400A1FD45 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		1A2971B92A44A58600A1FD45 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		1A2971BB2A44A59A00A1FD45 /* LikedSongsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedSongsView.swift; sourceTree = "<group>"; };
+		1A2971BD2A44A63100A1FD45 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		1A2971BF2A44A69200A1FD45 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		1A2971C12A44A69D00A1FD45 /* LikedSongsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedSongsViewModel.swift; sourceTree = "<group>"; };
 		1AF6B73B2A3D77E600A6510A /* NINEMUSES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NINEMUSES.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF6B73E2A3D77E600A6510A /* NINEMUSESApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NINEMUSESApp.swift; sourceTree = "<group>"; };
 		1AF6B7422A3D77E700A6510A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,14 +62,6 @@
 		1AF6B75C2A3D77E700A6510A /* NINEMUSESUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NINEMUSESUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1AF6B76C2A3D790700A6510A /* NINEMUSES.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NINEMUSES.xcdatamodel; sourceTree = "<group>"; };
 		1AF6B7722A43FD9400A6510A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1AF6B7742A43FDC100A6510A /* LikedSongState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedSongState.swift; sourceTree = "<group>"; };
-		1AF6B7762A43FDED00A6510A /* AuthenticationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationState.swift; sourceTree = "<group>"; };
-		1AF6B7782A43FDFD00A6510A /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
-		1AF6B77D2A43FF3100A6510A /* Song.Swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.Swift; sourceTree = "<group>"; };
-		1AF6B77F2A43FF3E00A6510A /* SpotifyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyService.swift; sourceTree = "<group>"; };
-		1AF6B7852A4402D200A6510A /* AuthenticationEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationEnvironment.swift; sourceTree = "<group>"; };
-		1AF6B7872A4402EA00A6510A /* LikedSongsEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedSongsEnvironment.swift; sourceTree = "<group>"; };
-		1AF6B7892A4404BF00A6510A /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
 		1AF6B78B2A44107900A6510A /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
 		1AF6B78D2A4411A200A6510A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,7 +71,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF6B77C2A43FE5900A6510A /* ComposableArchitecture in Frameworks */,
 				1AF6B78C2A44107900A6510A /* SpotifyiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +92,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A2971B12A44A4A400A1FD45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A2971B52A44A4DD00A1FD45 /* User.swift */,
+				1A2971B72A44A4E400A1FD45 /* Song.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A2971B22A44A4A800A1FD45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1AF6B7722A43FD9400A6510A /* ContentView.swift */,
+				1A2971B92A44A58600A1FD45 /* AuthenticationView.swift */,
+				1A2971BB2A44A59A00A1FD45 /* LikedSongsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A2971B32A44A4B900A1FD45 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1A2971BD2A44A63100A1FD45 /* ContentViewModel.swift */,
+				1A2971BF2A44A69200A1FD45 /* AuthenticationViewModel.swift */,
+				1A2971C12A44A69D00A1FD45 /* LikedSongsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1A2971B42A44A4C400A1FD45 /* Serivce Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Serivce Files";
+			sourceTree = "<group>";
+		};
 		1AF6B7322A3D77E600A6510A = {
 			isa = PBXGroup;
 			children = (
@@ -122,17 +154,12 @@
 			children = (
 				1AF6B78D2A4411A200A6510A /* Info.plist */,
 				1AF6B73E2A3D77E600A6510A /* NINEMUSESApp.swift */,
-				1AF6B76B2A3D790700A6510A /* NINEMUSES.xcdatamodeld */,
-				1AF6B7742A43FDC100A6510A /* LikedSongState.swift */,
-				1AF6B7722A43FD9400A6510A /* ContentView.swift */,
-				1AF6B7762A43FDED00A6510A /* AuthenticationState.swift */,
-				1AF6B7782A43FDFD00A6510A /* AppState.swift */,
-				1AF6B7892A4404BF00A6510A /* AuthenticationService.swift */,
-				1AF6B7852A4402D200A6510A /* AuthenticationEnvironment.swift */,
-				1AF6B7872A4402EA00A6510A /* LikedSongsEnvironment.swift */,
-				1AF6B77D2A43FF3100A6510A /* Song.Swift */,
-				1AF6B77F2A43FF3E00A6510A /* SpotifyService.swift */,
+				1A2971B12A44A4A400A1FD45 /* Model */,
+				1A2971B22A44A4A800A1FD45 /* View */,
+				1A2971B32A44A4B900A1FD45 /* ViewModel */,
+				1A2971B42A44A4C400A1FD45 /* Serivce Files */,
 				1AF6B7422A3D77E700A6510A /* Assets.xcassets */,
+				1AF6B76B2A3D790700A6510A /* NINEMUSES.xcdatamodeld */,
 				1AF6B7442A3D77E700A6510A /* NINEMUSES.entitlements */,
 				1AF6B7452A3D77E700A6510A /* Preview Content */,
 			);
@@ -181,7 +208,6 @@
 			);
 			name = NINEMUSES;
 			packageProductDependencies = (
-				1AF6B77B2A43FE5900A6510A /* ComposableArchitecture */,
 			);
 			productName = NINEMUSES;
 			productReference = 1AF6B73B2A3D77E600A6510A /* NINEMUSES.app */;
@@ -256,7 +282,6 @@
 			);
 			mainGroup = 1AF6B7322A3D77E600A6510A;
 			packageReferences = (
-				1AF6B77A2A43FE5900A6510A /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 			);
 			productRefGroup = 1AF6B73C2A3D77E600A6510A /* Products */;
 			projectDirPath = "";
@@ -300,17 +325,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF6B7802A43FF3E00A6510A /* SpotifyService.swift in Sources */,
+				1A2971BE2A44A63100A1FD45 /* ContentViewModel.swift in Sources */,
+				1A2971B62A44A4DD00A1FD45 /* User.swift in Sources */,
 				1AF6B7732A43FD9400A6510A /* ContentView.swift in Sources */,
-				1AF6B77E2A43FF3100A6510A /* Song.Swift in Sources */,
-				1AF6B7772A43FDED00A6510A /* AuthenticationState.swift in Sources */,
-				1AF6B7792A43FDFD00A6510A /* AppState.swift in Sources */,
-				1AF6B7882A4402EA00A6510A /* LikedSongsEnvironment.swift in Sources */,
-				1AF6B7862A4402D200A6510A /* AuthenticationEnvironment.swift in Sources */,
+				1A2971BA2A44A58600A1FD45 /* AuthenticationView.swift in Sources */,
 				1AF6B76D2A3D790700A6510A /* NINEMUSES.xcdatamodeld in Sources */,
-				1AF6B7752A43FDC100A6510A /* LikedSongState.swift in Sources */,
-				1AF6B78A2A4404BF00A6510A /* AuthenticationService.swift in Sources */,
+				1A2971BC2A44A59A00A1FD45 /* LikedSongsView.swift in Sources */,
+				1A2971C02A44A69200A1FD45 /* AuthenticationViewModel.swift in Sources */,
+				1A2971C22A44A69D00A1FD45 /* LikedSongsViewModel.swift in Sources */,
 				1AF6B73F2A3D77E600A6510A /* NINEMUSESApp.swift in Sources */,
+				1A2971B82A44A4E400A1FD45 /* Song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,25 +696,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		1AF6B77A2A43FE5900A6510A /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.54.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		1AF6B77B2A43FE5900A6510A /* ComposableArchitecture */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1AF6B77A2A43FE5900A6510A /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
-			productName = ComposableArchitecture;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		1AF6B76B2A3D790700A6510A /* NINEMUSES.xcdatamodeld */ = {
