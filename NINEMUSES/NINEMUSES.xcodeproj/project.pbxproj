@@ -8,13 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1AF6B73F2A3D77E600A6510A /* NINEMUSESApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B73E2A3D77E600A6510A /* NINEMUSESApp.swift */; };
-		1AF6B7412A3D77E600A6510A /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B7402A3D77E600A6510A /* ContentView2.swift */; };
 		1AF6B7432A3D77E700A6510A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF6B7422A3D77E700A6510A /* Assets.xcassets */; };
 		1AF6B7472A3D77E700A6510A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF6B7462A3D77E700A6510A /* Preview Assets.xcassets */; };
 		1AF6B7512A3D77E700A6510A /* NINEMUSESTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B7502A3D77E700A6510A /* NINEMUSESTests.swift */; };
 		1AF6B75B2A3D77E700A6510A /* NINEMUSESUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B75A2A3D77E700A6510A /* NINEMUSESUITests.swift */; };
 		1AF6B75D2A3D77E700A6510A /* NINEMUSESUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B75C2A3D77E700A6510A /* NINEMUSESUITestsLaunchTests.swift */; };
-		1AF6B76A2A3D783B00A6510A /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B7692A3D783B00A6510A /* DataController.swift */; };
 		1AF6B76D2A3D790700A6510A /* NINEMUSES.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B76B2A3D790700A6510A /* NINEMUSES.xcdatamodeld */; };
 		1AF6B7732A43FD9400A6510A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B7722A43FD9400A6510A /* ContentView.swift */; };
 		1AF6B7752A43FDC100A6510A /* LikedSongState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B7742A43FDC100A6510A /* LikedSongState.swift */; };
@@ -49,7 +47,6 @@
 /* Begin PBXFileReference section */
 		1AF6B73B2A3D77E600A6510A /* NINEMUSES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NINEMUSES.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF6B73E2A3D77E600A6510A /* NINEMUSESApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NINEMUSESApp.swift; sourceTree = "<group>"; };
-		1AF6B7402A3D77E600A6510A /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 		1AF6B7422A3D77E700A6510A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AF6B7442A3D77E700A6510A /* NINEMUSES.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NINEMUSES.entitlements; sourceTree = "<group>"; };
 		1AF6B7462A3D77E700A6510A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -58,7 +55,6 @@
 		1AF6B7562A3D77E700A6510A /* NINEMUSESUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NINEMUSESUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF6B75A2A3D77E700A6510A /* NINEMUSESUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NINEMUSESUITests.swift; sourceTree = "<group>"; };
 		1AF6B75C2A3D77E700A6510A /* NINEMUSESUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NINEMUSESUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		1AF6B7692A3D783B00A6510A /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		1AF6B76C2A3D790700A6510A /* NINEMUSES.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NINEMUSES.xcdatamodel; sourceTree = "<group>"; };
 		1AF6B7722A43FD9400A6510A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1AF6B7742A43FDC100A6510A /* LikedSongState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedSongState.swift; sourceTree = "<group>"; };
@@ -136,8 +132,6 @@
 				1AF6B7872A4402EA00A6510A /* LikedSongsEnvironment.swift */,
 				1AF6B77D2A43FF3100A6510A /* Song.Swift */,
 				1AF6B77F2A43FF3E00A6510A /* SpotifyService.swift */,
-				1AF6B7402A3D77E600A6510A /* ContentView2.swift */,
-				1AF6B7692A3D783B00A6510A /* DataController.swift */,
 				1AF6B7422A3D77E700A6510A /* Assets.xcassets */,
 				1AF6B7442A3D77E700A6510A /* NINEMUSES.entitlements */,
 				1AF6B7452A3D77E700A6510A /* Preview Content */,
@@ -307,7 +301,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AF6B7802A43FF3E00A6510A /* SpotifyService.swift in Sources */,
-				1AF6B7412A3D77E600A6510A /* ContentView2.swift in Sources */,
 				1AF6B7732A43FD9400A6510A /* ContentView.swift in Sources */,
 				1AF6B77E2A43FF3100A6510A /* Song.Swift in Sources */,
 				1AF6B7772A43FDED00A6510A /* AuthenticationState.swift in Sources */,
@@ -315,7 +308,6 @@
 				1AF6B7882A4402EA00A6510A /* LikedSongsEnvironment.swift in Sources */,
 				1AF6B7862A4402D200A6510A /* AuthenticationEnvironment.swift in Sources */,
 				1AF6B76D2A3D790700A6510A /* NINEMUSES.xcdatamodeld in Sources */,
-				1AF6B76A2A3D783B00A6510A /* DataController.swift in Sources */,
 				1AF6B7752A43FDC100A6510A /* LikedSongState.swift in Sources */,
 				1AF6B78A2A4404BF00A6510A /* AuthenticationService.swift in Sources */,
 				1AF6B73F2A3D77E600A6510A /* NINEMUSESApp.swift in Sources */,

@@ -12,20 +12,26 @@ import ComposableArchitecture
 struct ContentView: View {
     let store: Store<AppState, AppAction>
     @ObservedObject var viewStore: ViewStore<AppState, AppAction>
+    
+    init(store: Store<AppState, AppAction>) {
+        self.store = store
+        self.viewStore = ViewStore(self.store)
+    }
 
     var body: some View {
         NavigationView {
-            WithViewStore(store) { viewStore in
             VStack {
                 if viewStore.isAuthenticated {
                     LikedSongsView(store: store.scope(state: { $0.likedSongs }, action: AppAction.likedSongs))
                 } else {
-                    AuthenticationView(store: store.scope(state: { $0.authentication }, action: AppAction.authentication))
+                    AuthenticationView(
+                        store: store.scope(state: { $0.authentication }, action: AppAction.authentication),
+                        viewStore: ViewStore(store.scope(state: { $0.authentication }, action: AppAction.authentication))
+                    )
                 }
             }
             .navigationBarTitle("NINEMUSES")
         }
-    }
         .onAppear {
             viewStore.send(.authentication(.logIn))
         }
@@ -70,5 +76,23 @@ struct LikedSongsView: View {
                        }
                    }
                }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView(
+            store: Store(
+                initialState: AppState(
+                    authentication: AuthenticationState(),
+                    likedSongs: LikedSongsState()
+                ),
+                reducer: appReducer,
+                environment: AppEnvironment(
+                    spotifyService: SpotifyService(),
+                    authenticationService: AuthenticationService()
+                )
+            )
+        )
     }
 }

@@ -11,6 +11,7 @@ import ComposableArchitecture
 
 struct AuthenticationState: Equatable {
     var isLoggedIn: Bool = false
+    var isAuthenticated: Bool = false
 }
 
 enum AuthenticationAction {
@@ -20,7 +21,7 @@ enum AuthenticationAction {
     case loggedOut
 }
 
-let authenticationReducer = Reducer<AuthenticationState, AuthenticationAction, AppEnvironment> { state, action, _ in
+let authenticationReducer = Reducer<AuthenticationState, AuthenticationAction, AppEnvironment> { state, action, environment in
     switch action {
     case .logIn:
         // Implement the logic to authenticate the user
@@ -31,9 +32,11 @@ let authenticationReducer = Reducer<AuthenticationState, AuthenticationAction, A
         state.isLoggedIn = false
         return .none
     case .loggedIn:
+        state.isAuthenticated = true
         // Perform any necessary actions after successful login
         return .none
     case .loggedOut:
+        state.isAuthenticated = false
         // Perform any necessary actions after logout
         return .none
     }

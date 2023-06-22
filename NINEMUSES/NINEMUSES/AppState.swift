@@ -12,6 +12,7 @@ import ComposableArchitecture
 struct AppState: Equatable {
     var authentication: AuthenticationState
     var likedSongs: LikedSongsState
+    var isAuthenticated: Bool
 }
 
 enum AppAction {
