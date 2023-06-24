@@ -6,10 +6,16 @@
 	<array>
 		<dict>
 			<key>CFBundleURLName</key>
-			<string></string>
+			<string>com.spotify.iOS-SDK-Quick-Start</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>spotify-ios-quick-start</string>
+			</array>
 		</dict>
 	</array>
-	<key>LSApplicationQuerySchemes</key>
-	<string>spotify</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>spotify</string>
+	</array>
 </dict>
 </plist>
