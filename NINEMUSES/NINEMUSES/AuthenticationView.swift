@@ -12,7 +12,6 @@ import SpotifyiOS
 
 struct AuthenticationView: View {
     @State private var isPresentingSpotifyAuth = false
-    @Environment(\.presentationMode) var presentationMode
 
     var body: some View {
         VStack {
@@ -21,7 +20,6 @@ struct AuthenticationView: View {
                 .padding()
             
             Button(action: {
-                isPresentingSpotifyAuth = true
             }) {
                 Text("Sign in with Spotify")
                     .font(.headline)

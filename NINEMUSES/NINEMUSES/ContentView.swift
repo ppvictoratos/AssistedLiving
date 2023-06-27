@@ -10,33 +10,10 @@ import Foundation
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject private var viewModel = RecentlyPlayedViewModel()
     
     var body: some View {
         NavigationView {
-            VStack {
-                if viewModel.isLoading {
-                    ProgressView()
-                } else if let songs = viewModel.recentlyPlayedSongs {
-                    List(songs) { song in
-                        SongRowView(song: song)
-                    }
-                } else if let error = viewModel.error {
-                    Text("Error: \(error.localizedDescription)")
-                } else {
-                    Text("No recently played songs.")
-                }
-            }
-            .navigationTitle("Recently Played")
-            .onAppear {
-                viewModel.fetchRecentlyPlayedSongs()
-            }
-        }
-        .onOpenURL { url in
-            SpotifyManager.shared.handleAuthenticationRedirectURL(url)
-        }
-        .onReceive(NotificationCenter.default.publisher(for: .accessTokenDidChange)) { _ in
-            viewModel.fetchRecentlyPlayedSongs()
+            Text("sad")
         }
     }
 }

@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A2971C42A44A97500A1FD45 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2971C32A44A97500A1FD45 /* Constants.swift */; };
 		1A2971C62A44A99400A1FD45 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2971C52A44A99400A1FD45 /* Models.swift */; };
-		1A2971C82A44A9AB00A1FD45 /* RecentlyPlayedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2971C72A44A9AB00A1FD45 /* RecentlyPlayedView.swift */; };
-		1A2971CA2A44A9C900A1FD45 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2971C92A44A9C900A1FD45 /* AuthenticationView.swift */; };
-		1A2971CC2A44A9E600A1FD45 /* SpotifyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2971CB2A44A9E600A1FD45 /* SpotifyManager.swift */; };
-		1A2971CE2A44AA0400A1FD45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2971CD2A44AA0400A1FD45 /* AppDelegate.swift */; };
 		1A2971D02A44AA1900A1FD45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2971CF2A44AA1900A1FD45 /* ContentView.swift */; };
-		1A2971D22A44AAE700A1FD45 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A2971D12A44AAE700A1FD45 /* SpotifyiOS.framework */; };
 		1A2971D52A473A5A00A1FD45 /* SPTConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2971D42A473A5A00A1FD45 /* SPTConfiguration.swift */; };
+		1A2971DD2A473F2600A1FD45 /* astronomy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1A2971D72A473F2600A1FD45 /* astronomy.m4a */; };
+		1A2971DE2A473F2600A1FD45 /* tragedy.wav.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1A2971D82A473F2600A1FD45 /* tragedy.wav.m4a */; };
+		1A2971DF2A473F2600A1FD45 /* dance.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1A2971D92A473F2600A1FD45 /* dance.m4a */; };
+		1A2971E02A473F2600A1FD45 /* comedy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1A2971DA2A473F2600A1FD45 /* comedy.m4a */; };
+		1A2971E12A473F2600A1FD45 /* epic poetry.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1A2971DB2A473F2600A1FD45 /* epic poetry.m4a */; };
+		1A2971E22A473F2600A1FD45 /* love.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1A2971DC2A473F2600A1FD45 /* love.m4a */; };
 		1AF6B73F2A3D77E600A6510A /* NINEMUSESApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6B73E2A3D77E600A6510A /* NINEMUSESApp.swift */; };
 		1AF6B7432A3D77E700A6510A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF6B7422A3D77E700A6510A /* Assets.xcassets */; };
 		1AF6B7472A3D77E700A6510A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF6B7462A3D77E700A6510A /* Preview Assets.xcassets */; };
@@ -43,16 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A2971C32A44A97500A1FD45 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1A2971C52A44A99400A1FD45 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		1A2971C72A44A9AB00A1FD45 /* RecentlyPlayedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyPlayedView.swift; sourceTree = "<group>"; };
-		1A2971C92A44A9C900A1FD45 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
-		1A2971CB2A44A9E600A1FD45 /* SpotifyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyManager.swift; sourceTree = "<group>"; };
-		1A2971CD2A44AA0400A1FD45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A2971CF2A44AA1900A1FD45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1A2971D12A44AAE700A1FD45 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
-		1A2971D32A44AD3900A1FD45 /* NINEMUSES-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NINEMUSES-Bridging-Header.h"; sourceTree = "<group>"; };
 		1A2971D42A473A5A00A1FD45 /* SPTConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPTConfiguration.swift; sourceTree = "<group>"; };
+		1A2971D72A473F2600A1FD45 /* astronomy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = astronomy.m4a; sourceTree = "<group>"; };
+		1A2971D82A473F2600A1FD45 /* tragedy.wav.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = tragedy.wav.m4a; sourceTree = "<group>"; };
+		1A2971D92A473F2600A1FD45 /* dance.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = dance.m4a; sourceTree = "<group>"; };
+		1A2971DA2A473F2600A1FD45 /* comedy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = comedy.m4a; sourceTree = "<group>"; };
+		1A2971DB2A473F2600A1FD45 /* epic poetry.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "epic poetry.m4a"; sourceTree = "<group>"; };
+		1A2971DC2A473F2600A1FD45 /* love.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = love.m4a; sourceTree = "<group>"; };
 		1AF6B73B2A3D77E600A6510A /* NINEMUSES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NINEMUSES.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF6B73E2A3D77E600A6510A /* NINEMUSESApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NINEMUSESApp.swift; sourceTree = "<group>"; };
 		1AF6B7422A3D77E700A6510A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -72,7 +71,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A2971D22A44AAE700A1FD45 /* SpotifyiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,11 +91,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A2971D62A473F2600A1FD45 /* MYMUSES */ = {
+			isa = PBXGroup;
+			children = (
+				1A2971D72A473F2600A1FD45 /* astronomy.m4a */,
+				1A2971D82A473F2600A1FD45 /* tragedy.wav.m4a */,
+				1A2971D92A473F2600A1FD45 /* dance.m4a */,
+				1A2971DA2A473F2600A1FD45 /* comedy.m4a */,
+				1A2971DB2A473F2600A1FD45 /* epic poetry.m4a */,
+				1A2971DC2A473F2600A1FD45 /* love.m4a */,
+			);
+			name = MYMUSES;
+			path = ../../../Desktop/MYMUSES;
+			sourceTree = "<group>";
+		};
 		1AF6B7322A3D77E600A6510A = {
 			isa = PBXGroup;
 			children = (
-				1A2971D32A44AD3900A1FD45 /* NINEMUSES-Bridging-Header.h */,
-				1A2971D12A44AAE700A1FD45 /* SpotifyiOS.framework */,
+				1A2971D62A473F2600A1FD45 /* MYMUSES */,
 				1AF6B73D2A3D77E600A6510A /* NINEMUSES */,
 				1AF6B74F2A3D77E700A6510A /* NINEMUSESTests */,
 				1AF6B7592A3D77E700A6510A /* NINEMUSESUITests */,
@@ -120,12 +131,7 @@
 			children = (
 				1AF6B78D2A4411A200A6510A /* Info.plist */,
 				1AF6B73E2A3D77E600A6510A /* NINEMUSESApp.swift */,
-				1A2971C32A44A97500A1FD45 /* Constants.swift */,
 				1A2971C52A44A99400A1FD45 /* Models.swift */,
-				1A2971C72A44A9AB00A1FD45 /* RecentlyPlayedView.swift */,
-				1A2971C92A44A9C900A1FD45 /* AuthenticationView.swift */,
-				1A2971CB2A44A9E600A1FD45 /* SpotifyManager.swift */,
-				1A2971CD2A44AA0400A1FD45 /* AppDelegate.swift */,
 				1A2971CF2A44AA1900A1FD45 /* ContentView.swift */,
 				1AF6B7422A3D77E700A6510A /* Assets.xcassets */,
 				1AF6B76B2A3D790700A6510A /* NINEMUSES.xcdatamodeld */,
@@ -269,8 +275,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A2971DD2A473F2600A1FD45 /* astronomy.m4a in Resources */,
+				1A2971E12A473F2600A1FD45 /* epic poetry.m4a in Resources */,
 				1AF6B7472A3D77E700A6510A /* Preview Assets.xcassets in Resources */,
 				1AF6B7432A3D77E700A6510A /* Assets.xcassets in Resources */,
+				1A2971DF2A473F2600A1FD45 /* dance.m4a in Resources */,
+				1A2971DE2A473F2600A1FD45 /* tragedy.wav.m4a in Resources */,
+				1A2971E22A473F2600A1FD45 /* love.m4a in Resources */,
+				1A2971E02A473F2600A1FD45 /* comedy.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,14 +307,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A2971CE2A44AA0400A1FD45 /* AppDelegate.swift in Sources */,
 				1AF6B76D2A3D790700A6510A /* NINEMUSES.xcdatamodeld in Sources */,
-				1A2971CC2A44A9E600A1FD45 /* SpotifyManager.swift in Sources */,
 				1AF6B73F2A3D77E600A6510A /* NINEMUSESApp.swift in Sources */,
-				1A2971CA2A44A9C900A1FD45 /* AuthenticationView.swift in Sources */,
 				1A2971D02A44AA1900A1FD45 /* ContentView.swift in Sources */,
-				1A2971C82A44A9AB00A1FD45 /* RecentlyPlayedView.swift in Sources */,
-				1A2971C42A44A97500A1FD45 /* Constants.swift in Sources */,
 				1A2971D52A473A5A00A1FD45 /* SPTConfiguration.swift in Sources */,
 				1A2971C62A44A99400A1FD45 /* Models.swift in Sources */,
 			);
